@@ -6,7 +6,6 @@ a{
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
-	/* background-color: aqua; */
 }
 
 .header {
@@ -245,6 +244,13 @@ section {
 	padding-top: 13px;
 }
 
+#area01 .function > li{
+	background-image: url(../image/area01_frame.png);
+	width: 352px;
+	height: 556px;
+	padding-top: 13px;
+}
+
 .btn a {
 	border: 2px solid #ccc;
 	border-radius: 48px;
@@ -328,4 +334,4 @@ footer {
 	margin-bottom: 50px;
 	text-shadow: none;
 	text-align: center;
-}
+
