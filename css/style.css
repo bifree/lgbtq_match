@@ -3,9 +3,10 @@ a{
 }
 
 .container {
-	width: 1080px;
+	width: 80%;
 	margin: 0 auto;
 	display: flex;
+	background-color: aqua;
 }
 
 .header {
@@ -25,7 +26,7 @@ a{
 }
 
 .top-navi {
-	width: 700px;
+	width: 40%;
 	justify-content: space-between;
 	line-height: 2;
 	letter-spacing: 1px;
@@ -227,8 +228,19 @@ p.data {
 	width: 100%;
 }
 
+section {
+	margin: 0 auto;
+}
+
 #area01 {
 	padding: 75px 0 80px;
+}
+
+#area01 .function > li{
+	background-image: url(../image/area01_frame.png);
+	width: 352px;
+	height: 556px;
+	padding-top: 13px;
 }
 
 .btn a {
@@ -262,6 +274,21 @@ p.data {
 
 .col {
 	border-left: 1px solid rgb(0, 0, 0, 0.1);
+	width: calc(100% /3);
+}
+
+.col p{
+	text-align: center;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 28px;
+	font-weight: bold;
+	height: 70px;
+	line-height: 1.1;
 }
 
 footer {
@@ -276,4 +303,27 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 130px;
+}
+
+.start_btn {
+	display: block;
+	border-radius: 100px;
+	background-color: #FF3159;
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+	width: 260px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.download h2 {
+	color: #333;
+	font-size: 32px;
+	line-height: 1.2;
+	margin-bottom: 50px;
+	text-shadow: none;
+	text-align: center;
 }
