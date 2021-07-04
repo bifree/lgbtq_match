@@ -228,6 +228,10 @@ section {
 	background: url(../image/feature1.jpg) no-repeat center;
 }
 
+.area02 {
+	padding-top: 40px;
+}
+
 #area01 .function > li{
 	background-image: url(../image/area01_frame.png);
 	background-size: cover;
