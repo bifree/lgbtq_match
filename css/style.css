@@ -379,3 +379,8 @@ dl {
 	text-align: center;
 }
 
+.border_r {border:1px solid red;}
+.border_b {border:1px solid blue;}
+.border_g {border:1px solid green;}
+.border_y {border:1px solid orange;}
+
