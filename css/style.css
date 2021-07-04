@@ -105,7 +105,6 @@ span.large {
 	font-size: 18px;
 }
 
-
 .header {
 	display: flex;
 	align-items: center;
@@ -202,7 +201,9 @@ p.data {
 }
 
 .top_image {
-	position: relative;
+	background: url(../image/eyecatch.jpg);
+	background-size: cover;
+	height: 800px;
 }
 
 .eyecatch {
