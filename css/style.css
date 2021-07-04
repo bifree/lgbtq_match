@@ -239,6 +239,21 @@ section {
 	background: url(../image/feature1.jpg) no-repeat center;
 }
 
+#area01 .function > li{
+	background-image: url(../image/area01_frame.png);
+	background-size: cover;
+	width: 352px;
+	height: 556px;
+	padding-top: 13px;
+}
+
+#area01 .function > li{
+	background-image: url(../image/area01_frame.png);
+	width: 352px;
+	height: 556px;
+	padding-top: 13px;
+}
+
 .btn a {
 	border: 2px solid #ccc;
 	border-radius: 48px;
@@ -381,3 +396,4 @@ dl {
 	padding: 50px 0;
 	text-align: center;
 }
+
