@@ -228,6 +228,10 @@ section {
 	background: url(../image/feature1.jpg) no-repeat center;
 }
 
+.area02 {
+	padding-top: 40px;
+}
+
 #area01 .function > li{
 	background-image: url(../image/area01_frame.png);
 	background-size: cover;
@@ -399,3 +403,8 @@ dl {
 .border_g {border:1px solid green;}
 .border_y {border:1px solid orange;}
 
+.p-plot dl dt {
+    margin-bottom: 30px;
+    font-size:2rem;
+    letter-spacing: 0;
+}
