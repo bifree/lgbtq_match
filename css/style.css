@@ -72,7 +72,7 @@ p.data {
 
 .achivements {
 	display: flex;
-	background-color: rgba(195,171,148,0.12);
+	background-color: rgba(255, 170, 90, 0.12);
 	color: #273940;
 	text-align: center;
 	align-items: center;
@@ -298,10 +298,13 @@ footer {
 	padding: 0 130px;
 }
 
-.start_btn {
+.download {
+	margin-bottom: 50px;
+}
+
+.btn {
 	display: block;
 	border-radius: 100px;
-	background-color: #FF3159;
 	color: #FFF;
 	font-size: 16px;
 	text-decoration: none;
@@ -311,6 +314,18 @@ footer {
 	text-align: center;
 	cursor: pointer;
 	font-weight: bold;
+}
+
+.start_btn {
+	background-color: #FF3159;
+}
+
+.login_btn {
+	background-color: #3134ff;
+}
+
+.btn_ {
+	margin: 0 40px;
 }
 
 h2 {
