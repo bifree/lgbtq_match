@@ -10,29 +10,29 @@ a{
 
 .header {
 	display: flex;
-	height: 64px;
 	align-items: center;
 }
 
 .logo {
 	margin-right: auto;
-	line-height: 64px;
 }
 
 .memu {
 	display: flex;
-	line-height: 64px;
+	align-items: center;
+  height: 100%;
 }
 
 .top-navi {
 	width: 40%;
 	justify-content: space-between;
-	line-height: 2;
+	line-height: 1.5;
 	letter-spacing: 1px;
 }
 
 nav{
 	display: flex;
+	line-height: 1.5;
 }
 
 ul{
@@ -46,10 +46,6 @@ ul{
 	color: #000;
 }
 
-.top_image {
-	position: relative;
-}
-
 .eyecatch {
 	position: absolute;
 	top: 56px;
@@ -58,7 +54,9 @@ ul{
 
 .top_image {
 	width: 100%;
+	position: relative;
 }
+
 .top_image img{
 	width: 100%;
 }
@@ -82,6 +80,10 @@ p.data {
 	padding: 8px 0;
 }
 
+.achivement_items {
+	justify-content: center;
+}
+
 .achivement_item {
 	padding: 0 36px;
 	align-items: center;
@@ -102,7 +104,6 @@ span.large {
 
 .header {
 	display: flex;
-	height: 64px;
 	align-items: center;
 }
 
@@ -211,15 +212,6 @@ p.data {
 	z-index: 2;
 }
 
-.swiper-container {
-	margin: 0 auto;
-	position: relative;
-	overflow: hidden;
-	list-style: none;
-	padding: 0;
-	z-index: 1;
-}
-
 .eyecatch_img {
 	width: 100%;
 }
@@ -232,20 +224,13 @@ section {
 }
 
 #area01 {
-	padding: 75px 0 80px;
+	padding: 100px 0 120px;
 	background: url(../image/feature1.jpg) no-repeat center;
 }
 
 #area01 .function > li{
 	background-image: url(../image/area01_frame.png);
 	background-size: cover;
-	width: 352px;
-	height: 556px;
-	padding-top: 13px;
-}
-
-#area01 .function > li{
-	background-image: url(../image/area01_frame.png);
 	width: 352px;
 	height: 556px;
 	padding-top: 13px;
@@ -327,11 +312,70 @@ footer {
 	cursor: pointer;
 	font-weight: bold;
 }
-.download h2 {
+
+h2 {
 	color: #333;
 	font-size: 32px;
 	line-height: 1.2;
 	margin-bottom: 50px;
 	text-shadow: none;
 	text-align: center;
+}
+
+h3.sec_title {
+	border-radius: 12px;
+	border: 2px dotted #a49993;
+	margin: 0 auto 40px;
+	width: 910px;
+	padding: 16px 0;
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.copyright {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logo {
+	width: 150px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.footer {
+	padding-top: 30px;
+}
+
+.footer_logo {
+	width: 100px;
+	justify-content: end;
+}
+
+.footer_logo img{
+	width: 100%;
+}
+
+.p-plot {
+	margin: 0 auto;
+	padding-bottom: 32px;
+	width: 1130px;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+
+dl {
+	width: 540px;
+	margin-bottom: 48px;
+	border: 1px solid #958882;
+	border-radius: 6px;
+	padding: 50px 0;
+	text-align: center;
+}
 
