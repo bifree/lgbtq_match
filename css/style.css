@@ -226,3 +226,40 @@ p.data {
 .eyecatch_img img{
 	width: 100%;
 }
+
+#area01 {
+	padding: 75px 0 80px;
+}
+
+.btn a {
+	border: 2px solid #ccc;
+	border-radius: 48px;
+	color: red;
+	display: block;
+	font-weight: bold;
+	line-height: 44px;
+	margin: 0 auto;
+	text-align: center;
+	width: 240px;
+	height: 48px;
+}
+
+.inner {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.etcBox {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 2px solid #f4f4f4;
+	border-radius: 8px;
+	color: #fff;
+	display: flex;
+	margin-top: 25px;
+	padding: 38px 0;
+}
+
+.col {
+	border-left: 1px solid rgb(0, 0, 0, 0.1);
+}
