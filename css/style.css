@@ -2,6 +2,10 @@ a{
 	text-decoration: none;
 }
 
+img{
+	vertical-align: bottom;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -109,11 +113,6 @@ span.large {
 
 .header img{
 	width: 200px;
-}
-
-.logo {
-	margin-right: auto;
-	line-height: 64px;
 }
 
 .memu {
