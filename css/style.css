@@ -466,6 +466,7 @@ dl {
 #area03 .list-img {
 	position: relative;
   padding-bottom: 10rem;
+	border-radius: 2rem;
 }
 
 #area03 .list-img img {
