@@ -5,6 +5,15 @@
 		height: 300px;
 	}
 
+	.logo {
+		width: 70px;
+		margin-right: auto;
+	}
+
+	.header > .container {
+		display: flex !important;
+	}
+
 	.container {
 		flex-direction: column;
 	}
