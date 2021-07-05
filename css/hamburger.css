@@ -90,27 +90,3 @@ EDIT ON
 }
 
 
-@media screen and (min-width: 600px){
-  .btn-gNav{
-    display: none;
-  }
-  #gNav{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 50px;
-  }
-  #gNav .gNav-menu{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-left: 50px;
-  }
-  #gNav .gNav-menu li{
-    padding-top: 5px;
-  }
-}

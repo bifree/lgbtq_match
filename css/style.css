@@ -6,6 +6,10 @@ img{
 	vertical-align: bottom;
 }
 
+.container_top {
+	display: flex;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;

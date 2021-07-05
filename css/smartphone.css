@@ -1,4 +1,8 @@
 @media screen and (max-width: 480px) {
+	body {
+		margin: 0;
+	}
+
 	.top_image {
 		background: url(../image/eyecatch01.jpg);
 		background-size: cover;
@@ -10,17 +14,18 @@
 		margin-right: auto;
 	}
 
-	.header > .container {
-		display: flex !important;
+	.container_column {
+		flex-direction: column;
 	}
 
-	.container {
-		flex-direction: column;
+	.title {
+    font-size: 16px;
+    height: auto;
 	}
 
 	h2 {
     color: #333;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.2;
     margin-bottom: 50px;
     text-shadow: none;
@@ -34,7 +39,7 @@
 
 	.p-plot dl dt {
 	margin-bottom: 30px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	letter-spacing: 0;
 }
 
@@ -141,6 +146,12 @@ dd {
 
 	.etcBox {
 		flex-direction: column;
+		background-color: #FFF;
+    color: #333;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 0;
+}
 	}
 
 	.col {
@@ -152,7 +163,7 @@ dd {
     margin-bottom: 20px;
     border: 1px solid #958882;
     border-radius: 6px;
-    padding: 20px 0;
+    padding: 10px 0 0; 
     text-align: center;
 }
 
@@ -170,4 +181,8 @@ dd {
     margin: 10px auto;
     height: 400px;
 }
+
+	dd > p{
+		font-size: 12px;
+	}
 }
