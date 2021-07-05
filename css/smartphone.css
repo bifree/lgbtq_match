@@ -62,4 +62,33 @@
     width: 80%;
     margin: 0 2rem 1rem;
 	}
+
+	.p-plot {
+    margin: 0 auto;
+    padding-bottom: 32px;
+    width: auto;
+    display: block;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+	dl {
+    width: auto;
+    margin-bottom: 48px;
+    border: 1px solid #958882;
+    border-radius: 6px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+	.download .appDownload {
+    display: block;
+    justify-content: space-between;
+    padding: 0 0;
+	}
+
+	.download {
+		height: 300px;
+	}
 }
