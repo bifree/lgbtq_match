@@ -1,5 +1,6 @@
 HTML CSS JSResult Skip Results Iframe
 EDIT ON
+
 #hamburger .btn-gNav{
   position: fixed;
   top: 20px;
@@ -22,15 +23,19 @@ EDIT ON
   -webkit-transition: all 400ms;
   transition: all 400ms;
 }
+
 #hamburger .btn-gNav span:nth-child(1) {
   top:0;
 }
+
 #hamburger .btn-gNav span:nth-child(2) {
   top:10px;
 }
+
 #hamburger .btn-gNav span:nth-child(3) {
   top:20px;
 }
+
 #hamburger .btn-gNav.open span:nth-child(1){
   background: #fff;
   top: 6px;
@@ -38,6 +43,7 @@ EDIT ON
   -moz-transform   : rotate(-45deg);
   transform        : rotate(-45deg);
 }
+
 #hamburger .btn-gNav.open span:nth-child(2),#hamburger .btn-gNav.open span:nth-child(3){
   top: 6px;
   background :#fff;
@@ -45,6 +51,7 @@ EDIT ON
   -moz-transform   : rotate(45deg);
   transform        : rotate(45deg);
 }
+
 #gNav{
   position: fixed;
   top: 0;
@@ -58,21 +65,25 @@ EDIT ON
   padding-top: 50px;
   transition: .3s;
 }
+
 #gNav.open{
   right: 0px;
 }
+
 #gNav .gNav-menu{
-  width: 100%:;
+  width: 100%;
   height:100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   /*justify-content: center;*/
 }
+
 #gNav .gNav-menu li{
   display: block;
   padding : 20px 30px;
 }
+
 #gNav .gNav-menu li a{
   color: #ddd;
   text-decoration: none;
