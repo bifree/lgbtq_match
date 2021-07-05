@@ -3,6 +3,11 @@
 		margin: 0;
 	}
 
+	span.large {
+    font-weight: normal;
+    font-size: 14px;
+}
+
 	.top_image {
 		background: url(../image/eyecatch01.jpg);
 		background-size: cover;
@@ -50,7 +55,7 @@ dd {
 	.achivements {
 		border-top: 2px dotted #333;
 		border-bottom: 2px dotted #333;
-		margin-bottom: 10px;
+		margin-bottom: 0;
 	}
 
 	.btn_ {
@@ -180,9 +185,8 @@ dd {
 	.signups {
     margin: 10px auto;
     height: 400px;
-}
+	}
 
 	dd > p{
 		font-size: 12px;
 	}
-}
