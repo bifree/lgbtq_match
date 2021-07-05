@@ -7,6 +7,7 @@
 	<title>Rainbow LGBTQ</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/smartphone.css">
+	<link rel="stylesheet" href="css/hamburger.css">
 </head>
 <body>
 	<header>
@@ -15,7 +16,12 @@
 				<div class="logo">
 					<img src="image/logo.jpg" alt="">
 				</div>
-				<div class="top-navi menu">
+				<div class="top-navi menu" id="hamburher">
+					<p class="btn-gNav">
+						<span></span>
+						<span></span>
+						<span></span>
+					</p>
 					<nav id="gNav">
 						<ul class="gNav-menu header_menu">
 							<li><a href="">新規登録</a></li>
@@ -181,5 +187,24 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(function() {
+  $('.btn-gNav').on("click", function(){
+
+    $(this).toggleClass('open');
+    $('#gNav').toggleClass('open');
+  });
+
+});
+
+// メニューをクリックされたら、非表示にする
+$(function() {
+  $('.gNav-menu li a').on("click", function(){
+    $('#gNav').removeClass('open');
+  });
+});
+	</script>
 </body>
 </html>
