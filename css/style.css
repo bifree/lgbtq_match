@@ -201,7 +201,7 @@ p.data {
 }
 
 .top_image {
-	background: url(../image/eyecatch.jpg);
+	background: url(../image/eyecatch01.jpg);
 	background-size: cover;
 	height: 800px;
 }
@@ -303,7 +303,9 @@ footer {
 }
 
 .download {
-	margin-bottom: 50px;
+	background: url(../image/transgender.jpg);
+	background-size: cover;
+	height: 600px;
 }
 
 .btn {
@@ -476,4 +478,15 @@ dl {
 	top: 0;
 	left: 0;
 	overflow: hidden;
+}
+
+.download > .container {
+	background-color: #f4f4f46b;
+}
+
+.signups {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 400px;
+	margin: 100px auto;
 }
