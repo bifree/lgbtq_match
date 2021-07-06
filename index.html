@@ -7,6 +7,8 @@
 	<title>Rainbow LGBTQ</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/smartphone.css">
+	<link rel="stylesheet" href="css/hamburger.css">
 </head>
 <body>
 	<header>
@@ -15,9 +17,14 @@
 				<div class="logo">
 					<img src="image/logo.jpg" alt="">
 				</div>
-				<div class="top-navi menu">
-					<nav>
-						<ul class="header_menu">
+				<div class="top-navi menu" id="hamburher">
+					<p class="btn-gNav">
+						<span></span>
+						<span></span>
+						<span></span>
+					</p>
+					<nav id="gNav">
+						<ul class="gNav-menu header_menu">
 							<li><a href="">新規登録</a></li>
 							<li><a href="">会員規約</a></li>
 							<li><a href="">運営会社</a></li>
@@ -47,7 +54,7 @@
 		</div>
 
 		<section id="area03">
-			<div class="container">
+			<div class="container container_column">
 				<div class="inner">
 					<h2 class="title03"><span class="underLine">こんな悩みを抱えていませんか？</span></h2>
 					<div class="block03">
@@ -79,9 +86,8 @@
 		</section>
 
 		<section id="area01">
-			<div class="container">
-				<div class="inner">
-					<h2>Rainbow LBGTの特徴</h2>
+			<div class="inner">
+				<div class="feature_title"><h2>Rainbow LBGTの特徴</h2></div>
 					<h3 class="sec_title">マッチング成立までの充実した機能</h3>
 					<div class="etcBox">
 						<div class="col">
@@ -97,7 +103,6 @@
 							<p>なんだろうね</p>
 						</div>
 					</div>
-				</div>
 			</div>
 		</section>
 
@@ -193,23 +198,24 @@
 			</div>
 		</section>
 	
-		<div class="container">
-			<section class="download">
-				<h2>Rainbow LGBTQ</h2>
-				<div class="appDownload">
-					<div class="btn_">
-						<a href="" class="start_btn btn">
-							新しく始める（無料）
-						</a>
-					</div>
-					<div class="btn_">
-						<a href="" class="login_btn btn">
-							すでに登録されている方はこちら
-						</a>
-					</div>
+		<section class="download">
+			<div class="container">
+				<div class="signups">
+					<h2>Rainbow LGBTQ</h2>
+					<div class="appDownload">
+						<div class="btn_">
+							<a href="" class="start_btn btn">
+								新しく始める（無料）
+							</a>
+						</div>
+						<div class="btn_">
+							<a href="" class="login_btn btn">
+								すでに登録されている方はこちら
+							</a>
+						</div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
 	</main>
 
 	<footer>
@@ -224,5 +230,24 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(function() {
+  $('.btn-gNav').on("click", function(){
+
+    $(this).toggleClass('open');
+    $('#gNav').toggleClass('open');
+  });
+
+});
+
+// メニューをクリックされたら、非表示にする
+$(function() {
+  $('.gNav-menu li a').on("click", function(){
+    $('#gNav').removeClass('open');
+  });
+});
+	</script>
 </body>
 </html>

@@ -6,6 +6,10 @@ img{
 	vertical-align: bottom;
 }
 
+.container_top {
+	display: flex;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -201,7 +205,7 @@ p.data {
 }
 
 .top_image {
-	background: url(../image/eyecatch.jpg);
+	background: url(../image/eyecatch01.jpg);
 	background-size: cover;
 	height: 800px;
 }
@@ -303,7 +307,9 @@ footer {
 }
 
 .download {
-	margin-bottom: 50px;
+	background: url(../image/transgender.jpg);
+	background-size: cover;
+	height: 600px;
 }
 
 .btn {
@@ -415,7 +421,7 @@ dl {
 }
 
 #area03 .inner {
-	background: #E8FAFF;
+	background: #fff9e8;
 	width: 100%;
 	max-width: 1080px;
 	margin: 0 auto;
@@ -519,3 +525,15 @@ dl {
 	font-weight: bold;
 	color: cadetblue;
 }
+
+.download > .container {
+	background-color: #f4f4f46b;
+}
+
+.signups {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 400px;
+	margin: 100px auto;
+}
+
