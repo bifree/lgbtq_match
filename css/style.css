@@ -484,6 +484,48 @@ dl {
 	overflow: hidden;
 }
 
+/***** area04 *****/
+#area04 .inner {
+	padding: 2rem 0;
+}
+
+#area04 .title04 .underLine {
+	background:linear-gradient(transparent 60%, #ffcccc 0%);
+}
+
+#area04 .list04 {
+	margin: 0 .5rem 1rem;
+}
+
+#area04 .item-num {
+	color: transparent;
+	-webkit-text-stroke: 2px #333;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+#area04 .item-img {
+	position: relative;
+	padding-bottom: 25rem;
+	width: 70%;
+	margin: 0 auto 3rem;
+}
+
+#area04 .item-img img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#area04 .item-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: cadetblue;
+}
+
 .download > .container {
 	background-color: #f4f4f46b;
 }
@@ -494,3 +536,4 @@ dl {
 	height: 400px;
 	margin: 100px auto;
 }
+
