@@ -1,8 +1,9 @@
-a{
+a {
 	text-decoration: none;
+	color: #333;
 }
 
-img{
+img {
 	vertical-align: bottom;
 }
 
@@ -17,7 +18,21 @@ img{
 }
 
 .header {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background: white;
+	padding: .5rem 0;
+}
+
+.header .container {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-inner {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -25,22 +40,9 @@ img{
 	margin-right: auto;
 }
 
-.memu {
+.header-nav {
 	display: flex;
 	align-items: center;
-  height: 100%;
-}
-
-.top-navi {
-	width: 40%;
-	justify-content: space-between;
-	line-height: 1.5;
-	letter-spacing: 1px;
-}
-
-nav{
-	display: flex;
-	line-height: 1.5;
 }
 
 ul{
@@ -48,10 +50,41 @@ ul{
 	list-style: none;
 }
 
-.menu a{
-	display: inline-block;
-	font-size: 0.85rem;
-	color: #000;
+.menu-link {
+	letter-spacing: 2px;
+  margin-right: 1rem;
+}
+
+.menu-link a:hover {
+	color: #ffcc99;
+}
+
+.header-actBtn {
+	display: flex;
+}
+
+.header-actBtn .login_btn,.header-actBtn .start_btn {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.header-actBtn .login_btn {
+	background: transparent;
+	border: 1px solid #3134ff;
+	color: #3134ff;
+	margin-right: 1.5rem;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+.header-actBtn .login_btn:hover {
+	background: #3134ff;
+	color: white;
+}
+
+main {
+	padding-top: 7rem;
 }
 
 .eyecatch {
@@ -107,42 +140,6 @@ p.data {
 span.large {
 	font-weight: bold;
 	font-size: 18px;
-}
-
-.header {
-	display: flex;
-	align-items: center;
-}
-
-.header img{
-	width: 200px;
-}
-
-.memu {
-	display: flex;
-	line-height: 64px;
-}
-
-.header_menu {
-	width: 700px;
-	justify-content: space-between;
-	line-height: 2;
-	letter-spacing: 1px;
-}
-
-nav{
-	display: flex;
-}
-
-ul{
-	display: flex;
-	list-style: none;
-}
-
-.menu a{
-	display: inline-block;
-	font-size: 0.85rem;
-	color: #000;
 }
 
 .reservation {
@@ -208,12 +205,6 @@ p.data {
 	background: url(../image/eyecatch01.jpg);
 	background-size: cover;
 	height: 800px;
-}
-
-.eyecatch {
-	position: absolute;
-	top: 56px;
-	z-index: 2;
 }
 
 .eyecatch_img {
