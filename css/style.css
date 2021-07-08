@@ -319,10 +319,40 @@ footer {
 
 .start_btn {
 	background-color: #FF3159;
+	position: relative;
+	overflow: hidden;
+}
+
+.start_btn::before {
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 90%;
+	height: 140%;
+	content: '';
+	-webkit-transition: all .5s ease-in-out;
+					transition: all .5s ease-in-out;
+	-webkit-transform: translateX(-105%) translateY(-50%) rotate(120deg);
+					transform: translateX(-105%) translateY(-50%) rotate(120deg);
+	background: rgb(51,51,51);
+	background: linear-gradient(156deg, rgba(51,51,51,0.604079131652661) 0%, rgba(134,136,136,0.5984768907563025) 20%, rgba(216,220,220,0.6012780112044818) 35%, rgba(255,255,255,0.604079131652661) 50%, rgba(102,102,102,0.5984768907563025) 100%);
+}
+
+.start_btn:hover::before {
+	-webkit-transform: translateX(80%) translateY(-30%) rotate(120deg);
+					transform: translateX(80%) translateY(-30%) rotate(120deg);
 }
 
 .login_btn {
 	background-color: #3134ff;
+	border: 1px solid #3134ff;
+	-webkit-transition: all .3s ease;
+					transition: all .3s ease;
+}
+
+.login_btn:hover {
+	background: white;
+	color: #3134ff;
 }
 
 .btn_ {
@@ -473,6 +503,11 @@ dl {
 	top: 0;
 	left: 0;
 	overflow: hidden;
+}
+
+#area03 .text03 {
+	letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 /***** area04 *****/
