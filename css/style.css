@@ -98,9 +98,9 @@ main {
 	position: relative;
 }
 
-.top_image img{
+/* .top_image img{
 	width: 100%;
-}
+} */
 
 p.data {
 	color: #FFF;
@@ -109,6 +109,10 @@ p.data {
 	letter-spacing: 4px;
 	line-height: 1.8;
 	left: calc(50vw - 630px);
+}
+
+p.data .br {
+	display: none;
 }
 
 .achivements {
@@ -194,7 +198,7 @@ p{
 
 p.data {
 	color: #FFF;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	letter-spacing: 4px;
 	line-height: 1.8;
@@ -249,7 +253,7 @@ section {
 }
 
 .inner {
-	width: 100%;
+	width: 90%;
 	max-width: 1080px;
 	margin: 0 auto;
 }
@@ -550,6 +554,10 @@ dl {
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: cadetblue;
+}
+
+#area04 .item-discription {
+	line-height: 1.5;
 }
 
 .download > .container {
