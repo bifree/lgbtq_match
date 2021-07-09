@@ -1,56 +1,64 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 	body {
 		margin: 0;
 	}
-	
+
 	.logo {
 		width: 70px;
 		margin-right: auto;
 	}
-
+	
 	.header .container {
 		flex-direction: column;
 	}
-
+	
 	.header-nav {
 		flex-direction: column;
 		padding: 3rem 0;
 		height: 100vh;
 	}
-
+	
 	.nav-menu {
 		padding: 2rem 0;
     align-items: center;
 	}
-
+	
 	.header-actBtn {
 		flex-direction: column-reverse;
     align-items: center;
 	}
-
+	
 	.header-actBtn .login_btn, .header-actBtn .start_btn {
 		width: 250px;
     height: 50px;
     line-height: 50px;
 		font-size: 20px;
 	}
-
+	
 	.header-actBtn .login_btn {
 		margin: 2rem 0 0;
 	}
-
+	
 	.menu-link {
 		margin: 0 0 2rem;
 	}
-
+	
 	.menu-link a {
 		font-size: 20px;
 	}
-
+	
 	main {
 		padding-top: 4.5rem;
 	}
+	
+	.container {
+		width: 100%;
+	}
 
+	.eyecatch {
+		left: 30px;
+	}
+	
 	span.large {
     font-weight: normal;
     font-size: 14px;
@@ -59,11 +67,26 @@
 	.top_image {
 		background: url(../image/eyecatch01.jpg);
 		background-size: cover;
-		height: 300px;
+		height: 400px;
+		background-position-x: -160px;
+	}
+
+	p.data {
+		font-size: 2rem;
+		margin-top: 0;
+	}
+
+	p.data .br {
+		display: block;
 	}
 
 	.container_column {
+		width: 90%;
 		flex-direction: column;
+	}
+
+	#area03 .inner::before, #area03 .inner::after {
+		display: none;
 	}
 
 	.title {
@@ -72,17 +95,17 @@
 	}
 
 	h2 {
-    color: #333;
+    /* color: #333; */
     font-size: 16px;
-    line-height: 1.2;
-    margin-bottom: 50px;
-    text-shadow: none;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    /* text-shadow: none;
     text-align: center;
 		display: block;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
 	}
 
 	.p-plot dl dt {
@@ -99,10 +122,6 @@
 		border-top: 2px dotted #333;
 		border-bottom: 2px dotted #333;
 		margin-bottom: 0;
-	}
-
-	.btn_ {
-    margin: 0 auto;
 	}
 
 	.btn {
@@ -133,7 +152,8 @@
 	}
 
 	.feature_title {
-		width: 100%;
+		width: 110%;
+		margin-left: -5%;
 		background: url(../image/feature1.jpg);
 		background-size: cover;
 		height: 300px;
@@ -150,6 +170,16 @@
     border-radius: 30px;
     padding: 0 0 0;
     position: relative;
+	}
+
+	#area03 .title03 {
+		padding: 2rem 0;
+		margin: 0;
+	}
+	
+	#area03 .list03 {
+		width: 80%;
+		margin: 0 2rem 1rem;
 	}
 
 	ul {
@@ -176,33 +206,28 @@
     font-size: 1.1rem;
     text-align: center;
 	}
+	
+	.etcBox {
+		flex-direction: column;
+		background-color: #FFF;
+		color: #333;
+		display: flex;
+		margin-top: 10px;
+		padding: 10px 0;
+	}
 
-	#area03 .list03 {
-    width: 80%;
-    margin: 0 2rem 1rem;
+	.col {
+		width: 100%;
 	}
 
 	.p-plot {
     margin: 0 auto;
     padding-bottom: 32px;
-    width: auto;
+    width: 90%;
     display: block;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
-	}
-
-	.etcBox {
-		flex-direction: column;
-		background-color: #FFF;
-    color: #333;
-    display: flex;
-    margin-top: 10px;
-    padding: 10px 0;
-	}
-
-	.col {
-		width: 100%;
 	}
 
 	dl {
@@ -210,26 +235,41 @@
     margin-bottom: 20px;
     border: 1px solid #958882;
     border-radius: 6px;
-    padding: 10px 0 0; 
+    padding: 15px 0 0; 
     text-align: center;
 	}
 
-	.download .appDownload {
-    display: block;
-    justify-content: space-between;
-    padding: 0 0;
+	dd > p {
+		font-size: 14px;
+		line-height: 1.5;
 	}
-
+	
 	.download {
 		height: 300px;
 	}
-
+	
+	.download > .container {
+		height: inherit;
+	}
+	
 	.signups {
-    margin: 10px auto;
-    height: 400px;
+		margin: 0 auto;
+    height: auto;
 	}
 
-	dd > p {
-		font-size: 12px;
+	.sub-title {
+		font-size: 1.5rem;
+		padding-top: 1rem;
 	}
+	
+	.download .appDownload {
+		display: block;
+		justify-content: space-between;
+		padding: 0 0;
+	}
+
+	.btn_ {
+    margin: 0 auto 2rem;
+	}
+
 }
