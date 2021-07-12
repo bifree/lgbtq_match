@@ -279,6 +279,7 @@ section {
 .col {
 	border-left: 1px solid rgb(0, 0, 0, 0.1);
 	width: calc(100% /3);
+	padding: 0 2rem;
 }
 
 .col p{
@@ -293,6 +294,12 @@ section {
 	font-weight: bold;
 	height: 70px;
 	line-height: 1.1;
+}
+
+.dis {
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: left !important;
 }
 
 footer {
@@ -467,24 +474,24 @@ dl {
 	content: "";
 	position: absolute;
 	width: 15%;
-	height: 25%;
-	bottom: 3rem;
-	left: 3rem;
+	height: 40%;
+	top: -2rem;
+	left: -6rem;
 	background-image: url(../image/image-woman.png);
 	background-repeat: no-repeat;
-	transform: scale(1.2);
+	transform: rotate(-15deg);
 }
 
 #area03 .inner::after {
 	content: "";
 	position: absolute;
 	width: 15%;
-	height: 25%;
-	bottom: 3rem;
-	right: 3rem;
+	height: 40%;
+	top: -2rem;
+	right: -6rem;
 	background-image: url(../image/image-man.png);
 	background-repeat: no-repeat;
-	transform: scale(1.2) scaleX(-1);
+	transform: scaleX(-1) rotate(-15deg);
 }
 
 #area03 .title03 .underLine {
@@ -498,14 +505,13 @@ dl {
 }
 
 #area03 .list03 {
-	width: 25%;
-	margin: 0 2rem 1rem;
+	width: 30%;
+	margin: 0 1rem 1rem;
 }
 
 #area03 .list-img {
 	position: relative;
-  padding-bottom: 10rem;
-	border-radius: 2rem;
+  padding-bottom: 12rem;
 }
 
 #area03 .list-img img {
@@ -514,7 +520,9 @@ dl {
 	height: 100%;
 	top: 0;
 	left: 0;
+	border-radius: 1rem;
 	overflow: hidden;
+	object-fit: cover;
 }
 
 #area03 .text03 {
