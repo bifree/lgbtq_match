@@ -249,8 +249,8 @@
 		font-size: 14px;
 		line-height: 1.5;
 	}
-	
 	.download {
+		color: rgb(151, 255, 151);
 		height: 300px;
 	}
 	
