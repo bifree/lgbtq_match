@@ -244,7 +244,7 @@
 	}
 
 	.sec_bc {
-		background-color: #FF3159;
+		background: linear-gradient(to right, rgb(255, 0, 157), rgb(255, 167, 181));
 		color: #fff;
 		text-shadow: none;
 	}
