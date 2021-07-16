@@ -286,6 +286,9 @@ h3.sec_title {
 	font-size: 1.1rem;
 	font-weight: bold;
 	text-align: center;
+}
+
+.shadow {
 	text-shadow: 2px 2px 2px rgba(230,230,230,0.8);
 }
 
