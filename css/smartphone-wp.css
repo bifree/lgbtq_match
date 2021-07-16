@@ -227,4 +227,15 @@
 	.pt-1 {
 		padding: 0;
 	}
+
+	.title__bd {
+		border-top: 2px solid #333;
+		border-bottom: 2px solid #333;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.border_tb {
+		line-height: 1.5rem;
+	}
 }
