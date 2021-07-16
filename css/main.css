@@ -88,7 +88,7 @@ p.data {
 	padding: 10px 0;
 }
 
-p.data .br {
+.br {
 	display: none;
 }
 
@@ -120,7 +120,7 @@ section {
 }
 
 #area01 {
-	padding: 100px 0 120px;
+	padding: 70px 0 80px;
 	background: url(../image/feature2.jpeg) no-repeat center;
 	background-size: cover;
 }
@@ -277,11 +277,22 @@ h2.sub-title {
 	text-shadow: 2px 2px 2px rgba(230,230,230,0.8);
 }
 
+h2.title-top {
+	font-size: 3rem;
+	text-shadow: 2px 2px 2px rgba(230,230,230,0.8);
+	margin-bottom: 110px;
+}
+
 h3.sec_title {
-	border-radius: 12px;
-	border: 2px dotted #a49993;
+	border-radius: 8px;
+	width: 350px;
+	color: antiquewhite;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	border: 2px dotted white;
+	/* border: 2px dotted #a49993;
 	margin: 0 auto 40px;
-	width: 910px;
+	width: 910px; */
 	padding: 16px 0;
 	font-size: 1.1rem;
 	font-weight: bold;

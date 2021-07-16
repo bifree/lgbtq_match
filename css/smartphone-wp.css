@@ -9,7 +9,8 @@
 
 	.eyecatch {
 		align-items: flex-start;
-		padding-left: 15px;
+		left: 15px;
+		width: 90%;
 	}
 	
 	span.large {
@@ -35,12 +36,12 @@
 		margin-top: 0;
 	}
 
-	p.data .br {
+	.br {
 		display: block;
 	}
 
 	.container_column {
-		width: 90%;
+		width: 100%;
 		flex-direction: column;
 	}
 
@@ -97,25 +98,19 @@
 		background-color: #3134ff;
 	}
 
-	.feature_title {
-		width: 120%;
-		margin-left: -15%;
-		background: url(../image/feature2.jpeg);
-		background-size: cover;
-		height: 300px;
-		color: #FFF;
-	}
-
 	.underLine {
-		font-size: 20px;
+		font-size: 22px;
+	}
+	#area03 {
+		margin: 3rem 0 0;
 	}
 
 	#area03 .inner {
-    max-width: 1080px;
+    /* max-width: 1080px; */
     margin: 0 auto;
-    border-radius: 30px;
-    padding: 0 0 0;
-    position: relative;
+    border-radius: 0;
+    padding: 0 0 3rem;
+    /* position: relative; */
 	}
 
 	#area03 .title03 {
@@ -124,9 +119,13 @@
 	}
 	
 	#area03 .list03 {
-		width: 80%;
-		margin: 0 2rem 1rem;
+		width: 90%;
+		margin: 0 auto 1rem;
 	}
+
+	#area03 .text03 {
+    margin-top: .5rem;
+  }
 
 	ul {
     flex-direction: column;
@@ -137,20 +136,38 @@
     background: url() no-repeat center;
 	}
 
-	#area01 h2{
-		margin-top: 0;
-		margin-bottom: 0;
-		margin-left: 10%;
+	.feature_title {
+		width: 120%;
+		margin-left: -15%;
+		background: url(../image/feature2.jpeg);
+		background-size: cover;
+		height: 300px;
+		color: #FFF;
+		position: relative;
+	}
+
+	h2.title-top {
+		font-size: 2.5rem;
+    position: absolute;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    bottom: 3rem;
+    left: 55%;
+    transform: translateX(-50%);
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px rgb(100 100 100 / 80%);
 	}
 
 	h3.sec_title {
-    border-radius: 12px;
+    border-radius: 8px;
     border: 2px dotted #fff;
     margin: 20px auto 20px;
     width: auto;
     padding: 16px 0;
     font-size: 1.1rem;
     text-align: center;
+		color: white;
 	}
 	
 	.etcBox {
@@ -195,6 +212,19 @@
 		font-size: 14px;
 		line-height: 1.5;
 	}
+
+	#area04 .list04 {
+    margin: 0 auto 2.5rem;
+  }
+
+  #area04 .item-img {
+    margin: 0 auto 1rem;
+  }
+
+  #area04 .item-discription {
+    width: 90%;
+    margin: 1rem auto;
+  }
 	
 	.download {
 		height: 300px;
