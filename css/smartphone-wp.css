@@ -21,6 +21,7 @@
 		align-items: center;
 		left: 0;
 		bottom: 29px;
+		position: static;
 	}
 
 	p.data {
@@ -296,4 +297,21 @@
 		width: 65%;
 		border-bottom: 3px solid orange;
 	}
+
+	.d-none_sp {
+		display: none;
+	}
+
+	.d-none {
+		display: block;
+	}
+
+	.eyecatch_2 {
+    align-items: center;
+		position: absolute;
+    left: 0;
+    bottom: 29px;
+    position: static;
+		top: -100px;
+}
 }

@@ -473,3 +473,7 @@ dl {
 .signups .sub-title {
 	font-size: 3rem;
 }
+
+.d-none {
+	display: none;
+}
