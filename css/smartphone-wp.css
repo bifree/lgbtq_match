@@ -1,0 +1,230 @@
+@media screen and (max-width: 767px) {
+	body {
+		margin: 0;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.eyecatch {
+		align-items: flex-start;
+		padding-left: 15px;
+	}
+	
+	span.large {
+    font-weight: normal;
+    font-size: 14px;
+	}
+
+	.top_image {
+		background: url(../image/eyecatch01.jpg);
+		background-size: cover;
+		height: 400px;
+		background-position-x: -160px;
+	}
+
+	p.data {
+		color: #fff;
+		font-size: 2rem;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: left;
+		background: none;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	p.data .br {
+		display: block;
+	}
+
+	.container_column {
+		width: 90%;
+		flex-direction: column;
+	}
+
+	#area03 .inner::before, #area03 .inner::after {
+		display: none;
+	}
+
+	.title {
+    font-size: 16px;
+    height: auto;
+	}
+
+	h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+	}
+
+	.p-plot dl dt {
+	margin-bottom: 30px;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+	}
+
+	dd {
+		margin-inline-start: 0;
+	}
+
+	.achivements {
+		border-top: 2px dotted #333;
+		border-bottom: 2px dotted #333;
+		margin-bottom: 0;
+	}
+
+	.btn {
+		display: block;
+		border-radius: 100px;
+		color: #FFF;
+		font-size: 14px;
+		text-decoration: none;
+		width: 60vw;
+		height: 5vh;
+		line-height: 5vh;
+		text-align: center;
+		cursor: pointer;
+		font-weight: bold;
+	}
+
+	.start_btn {
+		background-color: #FF3159;
+	}
+
+	.login_btn {
+		background-color: #3134ff;
+	}
+
+	.feature_title {
+		width: 120%;
+		margin-left: -15%;
+		background: url(../image/feature2.jpeg);
+		background-size: cover;
+		height: 300px;
+		color: #FFF;
+	}
+
+	.underLine {
+		font-size: 20px;
+	}
+
+	#area03 .inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0 0 0;
+    position: relative;
+	}
+
+	#area03 .title03 {
+		padding: 2rem 0;
+		margin: 0;
+	}
+	
+	#area03 .list03 {
+		width: 80%;
+		margin: 0 2rem 1rem;
+	}
+
+	ul {
+    flex-direction: column;
+	}
+
+	#area01 {
+    padding: 0;
+    background: url() no-repeat center;
+	}
+
+	#area01 h2{
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 10%;
+	}
+
+	h3.sec_title {
+    border-radius: 12px;
+    border: 2px dotted #a49993;
+    margin: 20px auto 20px;
+    width: auto;
+    padding: 16px 0;
+    font-size: 1.1rem;
+    text-align: center;
+	}
+	
+	.etcBox {
+		flex-direction: column;
+		background-color: #FFF;
+		color: #333;
+		display: flex;
+		margin-top: 10px;
+		padding: 10px 0;
+	}
+
+	.col {
+		width: 100%;
+		padding: 0;
+    border: 0;
+	}
+
+	.dis {
+		padding-left: 1rem;
+	}
+
+	.p-plot {
+    margin: 0 auto;
+    padding-bottom: 32px;
+    width: 90%;
+    display: block;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+	}
+
+	dl {
+    width: auto;
+    margin-bottom: 20px;
+    border: 1px solid #958882;
+    border-radius: 6px;
+    padding: 15px 0 0; 
+    text-align: center;
+	}
+
+	dd > p {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	
+	.download {
+		height: 300px;
+	}
+	
+	.download > .container {
+		height: inherit;
+	}
+	
+	.signups {
+		margin: 0 auto;
+    height: auto;
+	}
+
+	.sub-title {
+		font-size: 1.5rem;
+		padding-top: 1rem;
+	}
+	
+	.download .appDownload {
+		display: block;
+		justify-content: space-between;
+		padding: 0 0;
+	}
+
+	.btn_ {
+    margin: 0 auto 2rem;
+	}
+
+	.pt-1 {
+		padding: 0;
+	}
+}
