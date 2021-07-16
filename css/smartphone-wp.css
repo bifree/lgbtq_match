@@ -14,21 +14,14 @@
 	.top_image {
 		/* background: url(../image/eyecatch01.jpg); */
 		background-size: contain;
-		height: 35vh;
+		height: 28vh;
 	}
 	
 	.eyecatch {
 		align-items: center;
 		left: 0;
 		bottom: 29px;
-	}
-
-	.d-none {
-		display: block;
-	}
-
-	.d-none_sp {
-		display: none;
+		position: static;
 	}
 
 	p.data {
@@ -37,6 +30,8 @@
 		text-align: center;
 		padding: 0;
 		margin-top: 0;
+		background: none;
+		color: rgba(255, 102, 0, 0.6);
 	}
 
 	.br {
@@ -303,5 +298,22 @@
 		margin: 0 auto;
 		width: 65%;
 		border-bottom: 3px solid orange;
+	}
+
+	.d-none_sp {
+		display: none;
+	}
+
+	.d-none {
+		display: block;
+	}
+
+	.eyecatch_2 {
+    align-items: center;
+		position: absolute;
+    left: 0;
+    bottom: 29px;
+    position: static;
+		top: -100px;
 	}
 }

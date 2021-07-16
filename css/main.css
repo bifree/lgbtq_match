@@ -89,10 +89,6 @@ p.data {
 	padding: 10px 0;
 }
 
-.d-none {
-	display: none;
-}
-
 .br {
 	display: none;
 }
@@ -476,4 +472,8 @@ dl {
 
 .signups .sub-title {
 	font-size: 3rem;
+}
+
+.d-none {
+	display: none;
 }
