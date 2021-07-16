@@ -63,10 +63,12 @@
 	margin-bottom: 30px;
 	font-size: 1.2rem;
 	letter-spacing: 0;
+	line-height: 1.5rem;
 	}
 
 	dd {
 		margin-inline-start: 0;
+		height: 42px;
 	}
 
 	.achivements {
@@ -114,7 +116,7 @@
     max-width: 1080px;
     margin: 0 auto;
     border-radius: 30px;
-    padding: 0 0 0;
+    padding: 0;
     position: relative;
 	}
 
@@ -187,7 +189,7 @@
     margin-bottom: 20px;
     border: 1px solid #958882;
     border-radius: 6px;
-    padding: 15px 0 0; 
+    padding: 15px 0; 
     text-align: center;
 	}
 
@@ -243,9 +245,37 @@
 		margin-bottom: 40px;
 	}
 
-	.sec_bc {
-		background: linear-gradient(to right, rgb(255, 0, 157), rgb(255, 167, 181));
-		color: #fff;
-		text-shadow: none;
+	.border_r {
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #ff8ba2;
+    box-shadow: 0px 0px 0px 10px #ff8ba2;
+    border: dashed 2px #FF3159;
+		color: #FF3159;
+	}
+	.border_b {
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: rgb(135, 221, 255);
+    box-shadow: 0px 0px 0px 10px rgb(135, 221, 255);
+    border: dashed 2px blue;
+		color: blue;
+	}
+	.border_g {
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: rgb(143, 255, 143);
+    box-shadow: 0px 0px 0px 10px rgb(143, 255, 143);
+    border: dashed 2px green;
+		color: green;
+	} 
+
+	.border_y {
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: rgb(255, 212, 133);
+    box-shadow: 0px 0px 0px 10px rgb(255, 212, 133);
+    border: dashed 2px orange;
+		color: rgb(210, 136, 0);
 	}
 }
