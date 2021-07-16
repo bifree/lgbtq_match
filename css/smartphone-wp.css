@@ -23,6 +23,14 @@
 		bottom: 29px;
 	}
 
+	.d-none {
+		display: block;
+	}
+
+	.d-none_sp {
+		display: none;
+	}
+
 	p.data {
 		font-size: 1.5rem;
 		letter-spacing: 2px;

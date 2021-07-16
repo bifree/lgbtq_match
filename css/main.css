@@ -89,6 +89,10 @@ p.data {
 	padding: 10px 0;
 }
 
+.d-none {
+	display: none;
+}
+
 .br {
 	display: none;
 }
