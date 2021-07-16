@@ -35,7 +35,7 @@ main {
 
 .achivements {
 	display: flex;
-	background-color: rgba(195,171,148,0.12);
+	background: white;
 	color: #273940;
 	text-align: center;
 	align-items: center;
@@ -57,7 +57,8 @@ main {
 
 span.large {
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 45px;
+	font-family: 'Yomogi', cursive;
 }
 
 .top_image {
@@ -290,9 +291,6 @@ h3.sec_title {
 	letter-spacing: 2px;
 	margin: 0 auto;
 	border: 2px dotted white;
-	/* border: 2px dotted #a49993;
-	margin: 0 auto 40px;
-	width: 910px; */
 	padding: 16px 0;
 	font-size: 1.1rem;
 	font-weight: bold;
@@ -472,3 +470,6 @@ dl {
 	margin: 100px auto;
 }
 
+.signups .sub-title {
+	font-size: 3rem;
+}

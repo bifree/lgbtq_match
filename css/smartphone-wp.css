@@ -6,32 +6,27 @@
 	.container {
 		width: 100%;
 	}
-
-	.eyecatch {
-		align-items: flex-start;
-		left: 15px;
-		width: 90%;
-	}
 	
 	span.large {
-    font-weight: normal;
-    font-size: 14px;
-	}
-
+		font-weight: normal;
+    font-size: 36px;	}
+	
 	.top_image {
-		background: url(../image/eyecatch01.jpg);
-		background-size: cover;
-		height: 400px;
-		background-position-x: -160px;
+		/* background: url(../image/eyecatch01.jpg); */
+		background-size: contain;
+		height: 35vh;
+	}
+	
+	.eyecatch {
+		align-items: center;
+		left: 0;
+		bottom: 29px;
 	}
 
 	p.data {
-		color: #fff;
-		font-size: 2rem;
-		font-weight: bold;
+		font-size: 1.5rem;
 		letter-spacing: 2px;
-		text-align: left;
-		background: none;
+		text-align: center;
 		padding: 0;
 		margin-top: 0;
 	}
@@ -61,12 +56,12 @@
 	}
 
 	.p-plot dl dt {
-	margin-bottom: 0;
-	font-size: 1.2rem;
-	letter-spacing: 0;
-	line-height: 1.5rem;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #333 70%;
+		margin-bottom: 0;
+		font-size: 1.2rem;
+		letter-spacing: 0;
+		line-height: 1.5rem;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #333 70%;
 	}
 
 	dd {
@@ -84,11 +79,11 @@
 		display: block;
 		border-radius: 100px;
 		color: #FFF;
-		font-size: 14px;
+		font-size: 16px;
 		text-decoration: none;
-		width: 60vw;
-		height: 5vh;
-		line-height: 5vh;
+		width: 70vw;
+		height: 6vh;
+		line-height: 6vh;
 		text-align: center;
 		cursor: pointer;
 		font-weight: bold;
@@ -106,7 +101,7 @@
 		font-size: 22px;
 	}
 	#area03 {
-		margin: 3rem 0 0;
+		margin: 0;
 	}
 
 	#area03 .inner {
@@ -162,14 +157,10 @@
 	}
 
 	h3.sec_title {
-    border-radius: 8px;
-    border: 2px dotted #fff;
     margin: 20px auto 20px;
     width: auto;
-    padding: 16px 0;
-    font-size: 1.1rem;
-    text-align: center;
 		color: white;
+		background: cadetblue;
 	}
 	
 	.etcBox {
@@ -242,8 +233,8 @@
     height: auto;
 	}
 
-	.sub-title {
-		font-size: 1.5rem;
+	.signups .sub-title {
+		font-size: 2rem;
 		padding-top: 1rem;
 	}
 	
