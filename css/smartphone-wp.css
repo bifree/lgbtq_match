@@ -9,12 +9,14 @@
 	
 	span.large {
 		font-weight: normal;
-    font-size: 36px;	}
+    font-size: 30px;
+	}
 	
 	.top_image {
-		/* background: url(../image/eyecatch01.jpg); */
-		background-size: contain;
-		height: 28vh;
+		background: url(../image/eyecatch-sp.jpg) no-repeat;
+		background-size: cover;
+    background-position: center;
+    height: 55vh;
 	}
 	
 	.eyecatch {
@@ -308,12 +310,23 @@
 		display: block;
 	}
 
-	.eyecatch_2 {
+	/* .eyecatch_2 {
     align-items: center;
 		position: absolute;
     left: 0;
     bottom: 29px;
     position: static;
 		top: -100px;
+	} */
+
+	.eyecatch_2 .data {
+		margin: 1rem auto;
+    font-size: 2rem;
+    padding-left: .5rem;
+		color: #ff9900;
+	}
+
+	.eyecatch_2 .start_btn {
+		margin: 0 auto 1.5rem;
 	}
 }
